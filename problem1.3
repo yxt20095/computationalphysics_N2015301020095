@@ -1,0 +1,22 @@
+import numpy as np
+import pylab as pl   
+V=0
+TIME=0
+deta=0.01
+x=[0]
+y=[0]
+while TIME<=50:
+    TIME=TIME+deta
+    V=V+(10-V)*deta
+    x.append(TIME)
+    y.append(V)
+else:
+    print (deta)
+    plot1=pl.plot(x, y,'--',label='first')
+    pl.title('Plot of y vs. x')
+    pl.xlabel('x axis')# make axis labels
+    pl.ylabel('y axis')
+    pl.xlim(0, 52)# set axis limits
+    pl.ylim(0, 12)
+    pl.legend(loc = 'best')
+pl.show()
