@@ -4,7 +4,7 @@
 - [ ] [Exercise_03:Chapter 1 problem 1.4](https://www.zybuluo.com/yxt20095/note/887764)<br>
 - [ ] [Exercise_04:Chapter 1 problem 1.5: The decay of two kinds of particles]()<br>
 - [ ] [Exercise_05:Chapter 1 problem 2.21:Baseball: Motion of a Batted Ball](https://www.zybuluo.com/yxt20095/note/887764)<br>
-- [ ] [Exercise_06:Chapter 2 problem 2.9 & 2.10: The cannon]()<br>
+- [ ] [Exercise_06:Chapter 2 problem 3.16](https://www.zybuluo.com/yxt20095/note/930859)<br>
 - [ ] [Exercise_07:Chapter 2 problem 2.19: The spin of baseball and Visual motion of baseball]()<br>
 - [ ] [Exercise_08:Chapter 3 problem 3.4: Non-linear oscillator]()<br>
 - [ ] [Exercise_09:Chapter 3 problem 3.16: Strange attractor]()<br>
