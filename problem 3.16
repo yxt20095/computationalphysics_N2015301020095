@@ -41,3 +41,31 @@ def F(Fd,Ω,TS):
         t=t+deta
         k=Ω*t
         K=[]
+    
+        while k>0:
+           K.append(k)
+           k=k-2*pi
+        else:
+           K.append(k)
+           i=K[-1]
+           j=K[-2]
+    
+        if abs(i)>abs(j):
+            min=abs(j)
+        else:
+            min=abs(i)
+    
+        if min<0.02*Ω:
+           W.append(ω)
+           Theta.append(θ)
+           T.append(t)
+        else:
+           T.append(t)
+    else:
+       
+        pl.scatter(Theta,W,marker = 'o', color = 'r', s=0.4)
+        return 0
+    
+    
+F(1.2,2/3,10000)
+pl.show()
